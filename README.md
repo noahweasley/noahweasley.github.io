@@ -39,9 +39,11 @@ Product website built to ease download of S.M.D Desktop.
 
 [Link to live website](https://noahweasley.github.io/SMD-Desktop/website)
 
-### [Project 3 Name]
+### Node User Settings (NPM Library)
 
-Node User Settings (NPM Library)
+A universal but simple node library to implement user
+settings, built to work with Electron.js with little or no
+configurations.
 
 #### Tech Stack
 
@@ -50,6 +52,19 @@ Node User Settings (NPM Library)
 - Jest
 
 [View N.P.M Package](https://www.npmjs.com/package/node-user-settings)
+
+### TimeLY
+
+An Android app that manages University students activities.
+
+#### Tech Stack
+
+- Java
+- XML
+- SQL
+- Android S.D.K
+
+[Download Latest Version](https://github.com/noahweasley/TimeLY/releases/download/v1.2.0/TimeLY_v1.2.0.apk)
 
 ## Skills
 
