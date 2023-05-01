@@ -2,16 +2,425 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Noah | My Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./assets/images/favicon.jpg"
+    />
+
+    <!-- Put your site title here -->
+    <title>
+      Ebenmelu Ifechukwu | Software Engineer Focused on Building Purposeful and
+      Impactful Products
+    </title>
+
+    <meta name="description" content="Add small description of yourslef." />
+    <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+    <meta
+      name="keywords"
+      content="Put your name, skills and some coding keywords"
+    />
+    <link rel="stylesheet" href="index.css" />
   </head>
 
   <body>
-    <p>I'll be working on this soon</p>
-    <p>Have a nice day :)</p>
-    <script src="event.js"></script>
+    <header class="header" role="banner" id="top">
+      <div class="row">
+        <nav class="nav" role="navigation">
+          <ul class="nav__items">
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#clients" class="nav__link">Experience</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__text-box row">
+        <div class="header__text">
+          <h1 class="heading-primary">
+            <span>Ebenmelu Ifechukwu</span>
+          </h1>
+          <p>
+            Software Engineer Focused on Building Purposeful and Impactful
+            Products
+          </p>
+          <a href="#contact" class="btn btn--pink">Get in touch</a>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+      <!-- ***** Work ***** -->
+
+      <!-- ***** Experience***** -->
+
+      <section class="client" id="clients">
+        <div class="row">
+          <h2>Experience</h2>
+          <div class="client__logos">
+            <!-- TODO: Add Experience-->
+
+            <img
+              src="./assets/images/chippy.png"
+              class="client__logo"
+              alt="Company 1"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="work" id="work">
+        <div class="row">
+          <h2>Side Projects</h2>
+          <div class="work__boxes">
+            <!-- Each div with the work__box class is a project. -->
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>S.M.D Desktop</h3>
+                <p>
+                  A Cross-Platform desktop application that seamlessly
+                  integrates with the Spotify API to help users discover,
+                  download, and enjoy their favorite songs from a single
+                  platform.
+                </p>
+                <ul class="work__list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Node JS</li>
+                  <li>Electron JS</li>
+                  <li>SQLite</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://noahweasley.github.io/SMD-Desktop/website/pages/downloads/get-smd.html"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Download Page<span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/noahweasley/SMD-Desktop"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./assets/svg/github.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./assets/images/works/work-1.png"
+                  class="work__image"
+                  alt="Project 1"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>S.M.D Product Website</h3>
+                <p>Product website built to ease download of S.M.D Desktop.</p>
+                <ul class="work__list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://noahweasley.github.io/SMD-Desktop/website"
+                    class="link__text"
+                  >
+                    View Website<span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/noahweasley/SMD-Desktop/tree/master/website"
+                  >
+                    <img
+                      src="./assets/svg/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./assets/images/works/work-5.png"
+                  class="work__image"
+                  alt="Project 2"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Node User Settings (NPM Library)</h3>
+                <p>
+                  A universal but simple node library to implement user
+                  settings, built to work with Electron.js with little or no
+                  configurations.
+                </p>
+                <ul class="work__list">
+                  <li>Javascript</li>
+                  <li>Node JS</li>
+                  <li>Jest</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://www.npmjs.com/package/node-user-settings"
+                    class="link__text"
+                  >
+                    View N.P.M Package <span>&rarr;</span>
+                  </a>
+                  <a href="https://github.com/noahweasley/Node-User-Settings">
+                    <img
+                      src="./assets/svg/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./assets/images/works/work-2.png"
+                  class="work__image"
+                  alt="Project 3"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>TimeLY</h3>
+                <p>
+                  An Android app that manages University students activities.
+                </p>
+                <ul class="work__list">
+                  <li>Java</li>
+                  <li>XML</li>
+                  <li>SQL</li>
+                  <li>Android S.D.K</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://github.com/noahweasley/TimeLY/releases/download/v1.2.0/TimeLY_v1.2.0.apk"
+                    class="link__text"
+                  >
+                    Download Latest Version<span>&rarr;</span>
+                  </a>
+                  <a href="https://github.com/noahweasley/TimeLY">
+                    <img
+                      src="./assets/svg/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./assets/images/works/work-3.jpg"
+                  class="work__image"
+                  alt="Project 4"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Color Scheme Generator</h3>
+                <p>A random color scheme generator</p>
+                <ul class="work__list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://noahweasley.github.io/Color-Scheme-Generator-V2/"
+                    class="link__text"
+                  >
+                    View Website<span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/noahweasley/Color-Scheme-Generator-V2"
+                  >
+                    <img
+                      src="./assets/svg/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./assets/images/works/work-4.png"
+                  class="work__image"
+                  alt="Project 5"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ***** About ***** -->
+
+      <section class="about" id="about">
+        <div class="row">
+          <h2>About Me</h2>
+          <div class="about__content">
+            <div class="about__text">
+              <p>
+                Hardworking and relentless software engineer with a strong
+                passion for technology and problem-solving. Possessing excellent
+                coding skills, attention to detail, and a persistent work ethic,
+                ready to bring these qualities to a challenging role and
+                contribute to developing cutting-edge software.Determined to
+                continue learning and growing as a developer, eager to work with
+                a team and collaborate to deliver exceptional results.
+              </p>
+              <!-- Provide a link to your resume -->
+              <a href="./assets/documents/Resume.pdf" class="btn">My Resume</a>
+            </div>
+
+            <div class="about__photo-container">
+              <!-- Add a nice photo of yourself -->
+              <img
+                class="about__photo"
+                src="./assets/images/Profile.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ***** Contact ***** -->
+
+    <section class="contact" id="contact">
+      <div class="row">
+        <h2>Get in Touch</h2>
+        <div class="contact__info">
+          <p>
+            Are you in need of an expert in mobile, web, and desktop application
+            development? Look no further, because I'm here to help you make your
+            tech dreams a reality. With my extensive knowledge and experience, I
+            provide customized solutions that cater to the unique needs of my
+            clients. Whether it's designing a cutting-edge mobile app, creating
+            an intuitive user interface for your web platform, or developing a
+            powerful desktop application, I've got you covered. I believe that
+            collaboration is the key to success, which is why I work closely
+            with my clients to ensure that their vision is brought to life.
+            Together, we can create innovative solutions that will wow your
+            users and take your business to the next level. So, let's team up
+            and build something amazing!
+          </p>
+          <!-- Replace the email with yours -->
+          <a href="mailto:iebenmelu@gmail.com" class="btn">Email Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Footer ***** -->
+
+    <footer role="contentinfo" class="footer">
+      <div class="row">
+        <!-- Update the links to point to your accounts -->
+        <ul class="footer__social-links">
+          <li class="footer__social-link-item">
+            <a
+              href="https://twitter.com/noah_weasley_1"
+              title="Link to Twitter Profile"
+            >
+              <img
+                src="./assets/svg/twitter.svg"
+                class="footer__social-image"
+                alt="Twitter"
+              />
+            </a>
+          </li>
+          <li class="footer__social-link-item">
+            <a
+              href="https://github.com/noahweasley"
+              title="Link to Github Profile"
+            >
+              <img
+                src="./assets/svg/github.svg"
+                class="footer__social-image"
+                alt="Github"
+              />
+            </a>
+          </li>
+          <li class="footer__social-link-item">
+            <a
+              href="#"
+              title="Link to Codepen Profile"
+            >
+              <img
+                src="./assets/svg/codepen.svg"
+                class="footer__social-image"
+                alt="Codepen"
+              />
+            </a>
+          </li>
+          <li class="footer__social-link-item">
+            <a href="https://www.linkedin.com/in/ebenmelu-ifechukwu">
+              <img
+                src="./assets/svg/linkedin.svg"
+                title="Link to Linkedin Profile"
+                class="footer__social-image"
+                alt="Linkedin"
+              />
+            </a>
+          </li>
+        </ul>
+
+        <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+        <p>
+          &copy; <span class="date__begin">2023</span> - <span class="date__end"></span> Designed by
+          <a href="https://github.com/noahweasley" class="link"
+            >Ebenmelu Ifechukwu</a
+          >.
+        </p>
+        <div class="footer__github-buttons"></div>
+      </div>
+    </footer>
+
+    <a href="#top" class="back-to-top" title="Back to Top">
+      <img
+        src="./assets/svg/arrow-up.svg"
+        alt="Back to Top"
+        class="back-to-top__image"
+      />
+    </a>
+    <script src="./index.js"></script>
   </body>
 </html>
