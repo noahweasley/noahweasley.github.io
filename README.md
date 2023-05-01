@@ -1,3 +1,76 @@
-# Welcome to my portfolio website!
+# Welcome to my Portfolio Website!
 
-I'm excited to showcase my projects and skills with you. As a Software Engineer, I'm passionate about using technology to create solutions that make people's lives easier. Through this website, I hope to give you a glimpse of my abilities and creativity. Whether you're a potential employer, a fellow developer, or just someone who stumbled upon my page, I invite you to take a look around and get to know me and my work better. Thank you for visiting!
+Hey there! I'm excited to showcase my projects and skills with you. As a _Software Engineer_, I'm passionate about using technology to create solutions that make people's lives easier.
+
+## About Me
+
+I'm a Software Engineer with 1 years of experience in the industry. I have a degree in Electronics and Computer Engineering from Nnamdi Azikiwe University, and have worked on a variety of projects. In my free time, I enjoy listening to music, gaming and talking walks.
+
+## Projects
+
+Here are some of the projects that I'm particularly proud of:
+
+### S.M.D Desktop
+
+A Cross-Platform desktop application that seamlessly
+integrates with the Spotify API to help users discover,
+download, and enjoy their favorite songs from a single
+platform.
+
+#### Tech Stack
+
+- CSS
+- JavaScript
+- Node JS
+- Electron JS
+- SQLite
+
+[Source code](https://github.com/noahweasley/SMD-Desktop)
+
+### S.M.D Product Website
+
+Product website built to ease download of S.M.D Desktop.
+
+#### Tech Stack
+
+- HTML
+- CSS
+- Javascript
+
+[Link to live website](https://noahweasley.github.io/SMD-Desktop/website)
+
+### [Project 3 Name]
+
+Node User Settings (NPM Library)
+
+#### Tech Stack
+
+- Javascript
+- Node JS
+- Jest
+
+[View N.P.M Package](https://www.npmjs.com/package/node-user-settings)
+
+## Skills
+
+Here are some of the skills and technologies that I'm proficient in:
+
+- Programming languages: Java, Kotlin, Javascript
+- Frameworks and libraries: Node JS, Electron JS, Bootstrap CSS, Photon CSS, Tailwind CSS, Jest, Android SDK, Android Jetpack
+- Tools and technologies: Jest, Git, GitHub
+
+## Resume/CV
+
+You can find my resume [here](assets/documents/Resume.pdf).
+
+## Contact
+
+If you'd like to get in touch with me, you can reach me at mailto:iebenmelu@gmail.com. You can also find me on [LinkedIn](https://www.linkedin.com/in/ebenmelu-ifechukwu).
+
+## Acknowledgements
+
+I'd like to thank...
+
+## License
+
+All code and resources in this repository are licensed under the GPL-3.0 license.
