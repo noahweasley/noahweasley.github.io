@@ -75,6 +75,10 @@ body {
   overflow-x: hidden;
 }
 
+.gone {
+  display: none;
+}
+
 .row {
   max-width: var(--container-max-width);
   margin: 0 auto;
@@ -110,7 +114,7 @@ body {
 
 section {
   padding: var(--gutter-huge) 0;
-  border-bottom: var(--border-light);
+  border-top: var(--border-light);
 }
 
 img {
@@ -493,6 +497,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__image-box {
   margin-bottom: var(--gutter-normal);
+  border: 1px solid #3d3635;
 }
 
 @media (min-width: 901px) {
@@ -552,7 +557,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .about__photo {
-   width: 50%;
+  width: 50%;
 }
 
 @media (min-width: 901px) {

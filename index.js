@@ -1,6 +1,12 @@
-/* -----------------------------------------
-  Have focus outline only for keyboard users 
- ---------------------------------------- */
+// date
+const dateBegin = document.querySelector(".date__begin");
+const dateEnd = document.querySelector(".date__end");
+
+const thisYear = new Date(Date.now()).getFullYear();
+
+if (thisYear != dateBegin.innerText) {
+  dateEnd.innerText = thisYear;
+}
 
 const handleFirstTab = (e) => {
   if(e.key === 'Tab') {
