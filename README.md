@@ -4,7 +4,7 @@ Hey there! I'm excited to showcase my projects and skills with you. As a _Softwa
 
 ## About Me
 
-I'm a Software Engineer with 1 years of experience in the industry. I have a degree in Electronics and Computer Engineering from Nnamdi Azikiwe University, and have worked on a variety of projects. In my free time, I enjoy listening to music, gaming and talking walks.
+I'm a Software Engineer and have worked on a variety of projects. In my free time, I enjoy listening to music, gaming and talking walks.
 
 ## Projects
 
