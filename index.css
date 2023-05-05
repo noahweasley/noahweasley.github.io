@@ -30,8 +30,8 @@
   --line-height-normal: 1.7;
   --line-height-small: 1.2;
 
-  --background-color: #0c0b0b;
-  --color-on-background: #000;
+  --background-color: #080808;
+  --color-on-background: #1c1c1c;
   --accent-color: #ff3258;
   --white: #f0e9f2;
   --white-1: #e5e5e6da;
@@ -145,7 +145,7 @@ h3 {
 }
 
 h2 {
-  font-size: var(--font-size-large);
+  font-size: var(--font-size-medium-1);
   margin-bottom: var(--gutter-medium);
 }
 
@@ -159,7 +159,7 @@ h2::after {
 }
 
 h3 {
-  font-size: var(--font-size-medium-1);
+  font-size: var(--font-size-medium);
   margin-bottom: var(--gutter-small);
 }
 
@@ -169,11 +169,11 @@ h3 {
   }
 
   h2 {
-    font-size: var(--font-size-medium-1);
+    font-size: var(--font-size-medium);
   }
 
   h3 {
-    font-size: var(--font-size-medium);
+    font-size: var(--font-size-normal);
   }
 }
 
@@ -553,10 +553,12 @@ body:not(.user-is-tabbing) a:focus {
 /* Place the container to the left */
 .left {
   left: 0;
+  padding: 10px 40px 10px 10px;
 }
 
 .right {
   left: 50%;
+  padding: 10px 10px 10px 40px;
 }
 
 /* Add arrows to the left container (pointing right) */
