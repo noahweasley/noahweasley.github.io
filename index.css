@@ -268,17 +268,17 @@ body:not(.user-is-tabbing) a:focus {
   background: var(--accent-color);
 }
 
-.btn--pink {
+.btn--accent {
   background: var(--accent-color);
   transition: all 0.2s;
 }
 
-.btn--pink::after {
+.btn--accent::after {
   display: none;
 }
 
-.btn--pink:hover,
-.btn--pink:focus {
+.btn--accent:hover,
+.btn--accent:focus {
   background: transparent;
 }
 
