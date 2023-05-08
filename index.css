@@ -233,6 +233,11 @@ body:not(.user-is-tabbing) a:focus {
   color: var(--accent-color);
 }
 
+.btn,
+.btn:after {
+  border-radius: 8px;
+}
+
 .btn {
   position: relative;
   display: inline-block;
@@ -240,7 +245,6 @@ body:not(.user-is-tabbing) a:focus {
   text-decoration: none;
   color: inherit;
   border: 1px solid var(--accent-color);
-  border-radius: 8px;
   font-weight: 400;
   font-size: var(--font-size-small);
 }
