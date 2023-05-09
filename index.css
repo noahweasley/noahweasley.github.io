@@ -50,7 +50,8 @@
   --gutter-small: 2rem;
   --gutter-smaller: 1.5rem;
 
-  --border-light: 1px solid rgb(36, 35, 35);
+  --border-dark: 1px solid rgb(36, 35, 35);
+  --border-light: 1px solid rgb(53, 50, 50);
 }
 
 html {
@@ -78,6 +79,10 @@ body {
 .gone {
   display: none;
 }
+
+/* .column {
+
+} */
 
 .row {
   max-width: var(--container-max-width);
@@ -114,7 +119,7 @@ body {
 
 section {
   padding: var(--gutter-huge) 0;
-  border-top: var(--border-light);
+  border-top: var(--border-dark);
 }
 
 img {
@@ -522,7 +527,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .project__image-box {
   margin-bottom: var(--gutter-normal);
-  border: 1px solid #3d3635;
+  border: var(--border-light)
 }
 
 @media (min-width: 901px) {
@@ -558,7 +563,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 /* Container around content */
-.container {
+.timeline__container {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
@@ -566,7 +571,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 /* The circles on the timeline */
-.container::after {
+.timeline__container::after {
   content: "";
   position: absolute;
   width: 25px;
@@ -633,20 +638,20 @@ body:not(.user-is-tabbing) a:focus {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
+  /* Place the timeline to the left */
   .timeline::after {
     left: 31px;
   }
 
   /* Full-width containers */
-  .container {
+  .timeline__container {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
   }
 
   /* Make sure that all arrows are pointing leftwards */
-  .container::before {
+  .timeline__container::before {
     left: 60px;
     border: medium solid var(--color-on-background);
     border-width: 10px 10px 10px 0;
@@ -665,9 +670,27 @@ body:not(.user-is-tabbing) a:focus {
   }
 }
 
-/* --------------------------------------- */
-/* ----- About ----- */
-/* --------------------------------------- */
+.skill__container {
+  width: 100%;
+  background-color: var(--color-on-background);
+  height: 20px;
+  padding: 4px;
+  border-radius: 8px;
+  border: var(--border-light);
+}
+
+.skill {
+  color: white;
+  height: 100%;
+  padding-right: 2rem;
+  font-size: 10px;
+  border-radius: inherit;
+  background-color: var(--accent-color);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: var(--strength);
+}
 
 .about__content {
   display: flex;
@@ -697,17 +720,9 @@ body:not(.user-is-tabbing) a:focus {
   }
 }
 
-/* --------------------------------------- */
-/* ----- Contact ----- */
-/* --------------------------------------- */
-
 .contact__info {
-  max-width: var(--container-normal-width);
+  max-width: var(--container-medium-width);
 }
-
-/* --------------------------------------- */
-/* ----- Footer ----- */
-/* --------------------------------------- */
 
 .footer {
   text-align: center;

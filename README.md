@@ -19,11 +19,14 @@ platform.
 
 #### Tech Stack
 
+- HTML
 - CSS
+- Photon (CSS Framework)
 - JavaScript
 - Node JS
 - Electron JS
 - SQLite
+- Jest (Test Library)
 
 [Source code](https://github.com/noahweasley/SMD-Desktop)
 
@@ -49,7 +52,7 @@ configurations.
 
 - Javascript
 - Node JS
-- Jest
+- Jest (Test Library)
 
 [View N.P.M Package](https://www.npmjs.com/package/node-user-settings)
 
