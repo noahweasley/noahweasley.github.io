@@ -636,8 +636,7 @@ body:not(.user-is-tabbing) a:focus {
   border-radius: 6px;
 }
 
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 860px) {
   /* Place the timeline to the left */
   .timeline::after {
     left: 31px;
