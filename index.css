@@ -80,13 +80,22 @@ body {
   display: none;
 }
 
-/* .column {
+.column {
+  display: flex;
+  /* gap: 2px; */
+}
 
-} */
+@media screen and (max-width: 860px) {
+  .column {
+    display: initial;
+  }
+}
 
 .row {
   max-width: var(--container-max-width);
   margin: 0 auto;
+  width: 100%;
+  padding: 0 var(--gutter-small);
 }
 
 .about__photo {
@@ -101,19 +110,13 @@ body {
 
 @media (max-width: 1240px) {
   .row {
-    padding: 0 var(--gutter-medium);
+    padding: 0 var(--gutter-small-1);
   }
 }
 
 @media (max-width: 600px) {
   .row {
-    padding: 0 var(--gutter-normal);
-  }
-}
-
-@media (max-width: 600px) {
-  .row {
-    padding: 0 var(--gutter-small);
+    padding: 0 var(--gutter-smaller);
   }
 }
 
@@ -527,7 +530,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .project__image-box {
   margin-bottom: var(--gutter-normal);
-  border: var(--border-light)
+  border: var(--border-light);
 }
 
 @media (min-width: 901px) {
@@ -637,14 +640,18 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 @media screen and (max-width: 860px) {
+  .row {
+    margin-top: 3em;
+  }
+
   /* Place the timeline to the left */
   .timeline::after {
     left: 31px;
   }
 
-  /* Full-width containers */
   .timeline__container {
     width: 100%;
+    max-width: 600px;
     padding-left: 70px;
     padding-right: 25px;
   }
