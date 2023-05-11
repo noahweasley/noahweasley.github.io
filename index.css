@@ -110,7 +110,7 @@ body {
 
 @media (max-width: 1240px) {
   .row {
-    padding: 0 var(--gutter-small-1);
+    padding: 0 var(--gutter-medium);
   }
 }
 
