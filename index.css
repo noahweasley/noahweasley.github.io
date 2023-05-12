@@ -163,7 +163,7 @@ h2 {
   margin-bottom: var(--gutter-medium);
 }
 
-h2::after {
+h2:after {
   content: "";
   display: block;
   height: 2px;
@@ -175,6 +175,12 @@ h2::after {
 h3 {
   font-size: var(--font-size-medium);
   margin-bottom: var(--gutter-small);
+}
+
+h3 > span,
+p > span {
+  font-style: italic;
+  font-size: 14px;
 }
 
 h4 {
@@ -193,6 +199,10 @@ h4 {
 
   h3 {
     font-size: var(--font-size-normal);
+  }
+
+  h3 > span {
+    font-size: 12px;
   }
 
   h4 {
@@ -641,7 +651,7 @@ body:not(.user-is-tabbing) a:focus {
 
 @media screen and (max-width: 860px) {
   .row {
-    margin-top: 3em;
+    margin-top: 1em;
   }
 
   /* Place the timeline to the left */
