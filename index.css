@@ -177,7 +177,8 @@ h3 {
   margin-bottom: var(--gutter-small);
 }
 
-h3 > span {
+h3 > span,
+p > span {
   font-style: italic;
   font-size: 14px;
 }
