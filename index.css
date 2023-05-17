@@ -16,6 +16,12 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  :user
+}
+
+*::selection {
+  background: var(--accent-color-5);
+  color: white;
 }
 
 :root {
@@ -35,6 +41,7 @@
   --background-color: #080808;
   --color-on-background: #1c1c1c;
   --accent-color: #ff3258;
+  --accent-color-5: hsla(346, 100%, 57%, 0.5);
   --white: #f0e9f2;
   --white-1: #e5e5e6da;
 
