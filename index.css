@@ -712,6 +712,7 @@ body:not(.user-is-tabbing) a:focus {
   align-items: center;
   justify-content: end;
   width: var(--strength);
+  min-width: 50px;
 }
 
 .animate-to-right {
@@ -720,7 +721,7 @@ body:not(.user-is-tabbing) a:focus {
 
 @keyframes animate-to-right {
   from {
-    width: 5%;
+    width: 10%;
   }
 
   to {
