@@ -714,6 +714,20 @@ body:not(.user-is-tabbing) a:focus {
   width: var(--strength);
 }
 
+.animate-to-right {
+  animation: animate-to-right 1s linear forwards;
+}
+
+@keyframes animate-to-right {
+  from {
+    width: 5%;
+  }
+
+  to {
+    width: var(--strength);
+  }
+}
+
 .about__content {
   display: flex;
   flex-direction: row-reverse;
