@@ -32,7 +32,7 @@ platform.
 - SQLite
 - Jest (Test Library)
 
-[Source code](https://github.com/noahweasley/SMD-Desktop)
+[Source code](https://github.com/noahweasley/SMD-Desktop "View source code on GitHub")
 
 ### S.M.D Product Website
 
@@ -44,7 +44,7 @@ Product website built to ease download of S.M.D Desktop.
 - CSS
 - Javascript
 
-[Link to Live Website](https://noahweasley.github.io/SMD-Desktop/website)
+[Link to Live Website](https://noahweasley.github.io/SMD-Desktop/website "View Live website")
 
 ### Node User Settings (NPM Library)
 
@@ -58,7 +58,7 @@ configurations.
 - Node JS
 - Jest (Test Library)
 
-[View N.P.M Package](https://www.npmjs.com/package/node-user-settings)
+[View N.P.M Package](https://www.npmjs.com/package/node-user-settings "View N.P.M Package")
 
 ### TimeLY
 
@@ -71,7 +71,7 @@ An Android app that manages University students activities.
 - SQL
 - Android S.D.K
 
-[Download Latest Version](https://github.com/noahweasley/TimeLY/releases/download/v1.2.0/TimeLY_v1.2.0.apk)
+[Download Latest Version](https://github.com/noahweasley/TimeLY/releases/download/v1.2.0/TimeLY_v1.2.0.apk "Download Latest Version")
 
 ### Color Scheme Generator
 
@@ -83,14 +83,26 @@ A random color scheme generator.
 - CSS
 - JavaScript
 
-[Link to Live Website](https://noahweasley.github.io/Color-Scheme-Generator-V2/)
+[Link to Live Website](https://noahweasley.github.io/Color-Scheme-Generator-V2/ "Link to Live website")
+
+
+### Weather
+
+A cross platform mobile app to display current weather of any city and predicts 5 consecutive days weather conditions.
+
+#### Tech Stack
+
+- Dart
+- Flutter S.D.K
+
+[Download For Android](https://github.com/noahweasley/Weather/releases/download/v0.1.0/weather.apk "Download for Android")
 
 ## Skills
 
 Here are some of the skills and technologies that I'm proficient in:
 
-- Programming languages: Java, Kotlin, Javascript
-- Frameworks and libraries: Node JS, Electron JS, Bootstrap CSS, Photon CSS, Tailwind CSS, Jest, Android SDK, Android Jetpack
+- Programming languages: Java, Kotlin, Javascript, Dart
+- Frameworks and libraries: Node JS, Electron JS, Bootstrap CSS, Photon CSS, Tailwind CSS, Jest, Android SDK, Android Jetpack, Flutter
 - Tools and technologies: Jest, Git, GitHub
 
 ## Resume/CV
