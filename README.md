@@ -85,7 +85,6 @@ A random color scheme generator.
 
 [Link to Live Website](https://noahweasley.github.io/Color-Scheme-Generator-V2/ "Link to Live website")
 
-
 ### Weather
 
 A cross platform mobile app to display current weather of any city and predicts 5 consecutive days weather conditions.
@@ -104,10 +103,6 @@ Here are some of the skills and technologies that I'm proficient in:
 - Programming languages: Java, Kotlin, Javascript, Dart
 - Frameworks and libraries: Node JS, Electron JS, Bootstrap CSS, Photon CSS, Tailwind CSS, Jest, Android SDK, Android Jetpack, Flutter
 - Tools and technologies: Jest, Git, GitHub
-
-## Resume/CV
-
-You can find my resume [here](assets/documents/00%20Ebenmelu%20Ifechukwu's%20Mobile%20Application%20Developer%20Resume.pdf).
 
 ## Contact
 
